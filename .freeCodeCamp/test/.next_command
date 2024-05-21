@@ -46,3 +46,4 @@ echo -n bc28d42c-a1f0-418f-a1c2-6b0437155e01
 cat /proc/self/environ
 echo -n bc28d42c-a1f0-418f-a1c2-6b0437155e01
 psql --username=freecodecamp --dbname=postgres
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
